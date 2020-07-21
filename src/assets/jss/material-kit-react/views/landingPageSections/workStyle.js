@@ -19,6 +19,9 @@ const workStyle = {
   textCenter: {
     textAlign: "center"
   },
+  justifyCenter: {
+    justifyContent: "center !important"
+  },
   textArea: {
     marginRight: "15px",
     marginLeft: "15px"

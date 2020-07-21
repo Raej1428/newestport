@@ -20,7 +20,6 @@ import styles from "../../assets/jss/material-kit-react/views/landingPage.js";
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
-import WorkSection from "./Sections/WorkSection.js";
 
 const dashboardRoutes = [];
 
@@ -34,7 +33,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Material Kit React"
+        brand="Rachael Gladwin"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -47,23 +46,21 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Your Story Starts With Us.</h1>
+              <h1 className={classes.title}>Developer. Leader. Discoverer.</h1>
               <h4>
-                Every landing page needs a small description after the big bold
-                title, that{"'"}s why we added this text here. Add here all the
-                information that can make you or your product create the first
-                impression.
+                I am a full-stack developer with a certification from the University of Denver. Skills in HTML, CSS, and JavaScript, focusing on my strengths in developing ideas/ processes, creativity, troubleshooting, and collaboration. Successfully implemented new technology for a small organization, which increased organizational growth opportunities and higher employee retention. 
+                Passionate about approaching programming challenges from different angles and collaborating with others to create meaningful applications.
+                Positioned to provide unique perspectives on how end-users interact with websites and software platforms by leveraging a background in digital learning, human services, and business operations.
               </h4>
               <br />
               <Button
-                color="danger"
-                size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                color="info"
+                size="md"
+                href="https://www.linkedin.com/in/rachaelgladwin-13"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fas fa-play" />
-                Watch video
+                LinkedIn
               </Button>
             </GridItem>
           </GridContainer>
@@ -73,7 +70,6 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <ProductSection />
           <TeamSection />
-          <WorkSection />
         </div>
       </div>
       <Footer />
