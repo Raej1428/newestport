@@ -33,23 +33,23 @@ export default function Footer(props) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.linkedin.com/in/rachaelgladwin-13"
+                href="https://www.github.com/raej1428"
                 className={classes.block}
                 target="_blank"
               >
-                Rachael Gladwin's LinkedIn
+                My GitHub
               </a>
             </ListItem>
-            {/* <ListItem className={classes.inlineBlock}>
+            <ListItem className={classes.inlineBlock}>
               <a
                 href="https://www.creative-tim.com/presentation?ref=mkr-footer"
                 className={classes.block}
                 target="_blank"
               >
-                About us
+                Material UI Info
               </a>
             </ListItem>
-            <ListItem className={classes.inlineBlock}>
+            {/* <ListItem className={classes.inlineBlock}>
               <a
                 href="http://blog.creative-tim.com/?ref=mkr-footer"
                 className={classes.block}
@@ -73,7 +73,7 @@ export default function Footer(props) {
           &copy; {1900 + new Date().getYear()} , edited with{" "}
           <Favorite className={classes.icon} /> by{" "}
           <a
-            href="https://www.creative-tim.com?ref=mkr-footer"
+            href="https://www.linkedin.com/in/rachaelgladwin-13"
             className={aClasses}
             target="_blank"
           >
